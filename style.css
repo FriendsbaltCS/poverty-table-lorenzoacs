@@ -26,10 +26,6 @@ tbody {
     background-color: #EEE;
 }
 
-tbody tr:hover {
-    background-color: lightcolar;
-}
-
 tr:nth-child(odd){
 	background-color: #DDD;
 }
@@ -38,6 +34,9 @@ tr:nth-child(odd){
 	background-color: black;
 }
 
+.HEADER tr th:hover{
+	background-color: #333333!important;
+}
 td {
 	border-style: solid;
 	border-width: .125vw;
